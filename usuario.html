@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos-usuario.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Inicio</a>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="quienes-somos.html">Quienes somos </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="usuario.html">Usuario</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="fisioterapeuta.html">Fisioterapeuta</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Registrate como usuario</h2>
+            <form>
+                <label for="">Nombre (Obligatorio)</label>
+                <input type="text" name="" id="" required>
+                <label for="">Apellidos (Obligatorio)</label>
+                <input type="text" name="" id="" required>
+                <label for="">Edad</label>
+                <input type="number" name="" id="">
+                <label for="">Numero de telefono (Obligatorio)</label>
+                <input type="number" name="" placeholder="Celular o telefono" id="" required>
+                <label for=""> Ingresa tu Email</label>
+                <input type="email" name="" placeholder="Correo Electronico" id="" required>
+                <label for="">Contraseña</label>
+                <input type="password" name="" placeholder="Contraseña" id="" required>
+                <input type="submit" value="Registrarse">
+            </form>
+            <div>
+                <h5> ¿Eres mayor de 18 aos?</h5>
+                <label for=""> SI</label>
+                <input type="radio" name="" id="" required>
+                <label for=""> NO</label>
+                <input type="radio" name="" id="" required>
+            </div>
+        </section>
+        <div>
+            <h4>En que servicio estas interesado</h4>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="./Imagenes/masaje.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Masaje </h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <a href="https://youtu.be/yqdd6CryUEg" class="btn btn-primary">saber mas</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="./Imagenes/rehabilitacion.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <a href="https://youtu.be/Ds8fOawO8u4" class="btn btn-primary">saber mas</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="./Imagenes/acondicionamiento fisico.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    <a href="https://youtu.be/jQre2XBKUIo" class="btn btn-primary">saber mas</a>
+                  </div>
+                </div>
+              </div>
+                </div>
+              </div>
+            </div>
+            <!-- <p>A continución te presentamos los servicios que ofrecemos y enlace explicando cada uno de ellos</p>
+            <a href="https://youtu.be/yqdd6CryUEg"> Masaje</a><img src="./Imagenes/masaje.jpg" alt="" width="200" height="200">
+            <a href="https://youtu.be/Ds8fOawO8u4"> Rehabilitacion</a><img src="./Imagenes/rehabilitacion.jpg" alt="" width="200" height="200">
+            <a href="https://youtu.be/jQre2XBKUIo"> Acondicionamiento Fisico</a><img src="./Imagenes/acondicionamiento fisico.jpg" alt="" width="200" height="200">
+            <h5>Elige el Servicio que deseas</h5>
+            <form action="">
+                <select name="Servicios" id="">
+                    <h1>Masaje</h1>
+                    <option value="Masaje">Masaje</option>
+                    <h1>Rehabilitación</h1>
+                    <option value="Rehabilitación">Rehabilitación</option>
+                    <h1>Acondicionamiento Fisico</h1>
+                    <option value="Acondicionamiento Fisico">Acondicionamiento Fisico</option>
+                </select>
+                <input type="submit" value="Elegir">
+            </form> -->
+        </div>
+        
+    </main>
+    <footer>
+        <H4>Contactanos</H4>
+        <aside>
+            <img src="/Imagenes/whats.png" alt="logowhats" width="50" height="50"> 
+            <h5>2211335532</h5>
+            <img src="/Imagenes/outllok.png" alt="" width="70" height="50" >
+            <h5>oscarmsm98@outlookcom</h5>
+        </aside>
+        
+        <audio src="./audio/pequeñas gotas de agua.mp3"></audio>
+
+    </footer>
+</body>
+</html>

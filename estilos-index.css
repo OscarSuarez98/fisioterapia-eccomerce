@@ -1,0 +1,71 @@
+
+#cabecera{
+    background: rgb(225, 225, 247);
+    border: 1px solid blue;
+    width: 100%;
+}
+header li{
+    display: inline-flex;
+    margin-left: 6px;
+    bottom: 10px;
+}
+
+#carouselExampleDark img{
+    height: 600px;
+    width: 950px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+
+.clearfix{
+    clear: both;
+}
+
+#content{
+    border: 1px solid blue;
+    background: rgb(176, 184, 241);
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items:flex-start;
+    width: 100%;
+}
+#video iframe{
+    display: flex;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    
+
+}
+
+
+
+
+footer{
+    border: 1px solid blue;
+    background: rgb(44, 42, 42);
+    color: white;
+    text-align: right;
+}
+
+h2{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(215, 215, 255);
+    color: rgb(72, 67, 141);
+}
+
+@media only screen and ( min-width: 320px) and ( max-width: 500px){
+
+}
